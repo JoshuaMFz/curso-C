@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-#define N 10
+#define SIZE 10
 
 int main()
 {
-    int *vetor = (int *)malloc(N * sizeof(int));
+    int *vector = (int *)malloc(SIZE * sizeof(int));
 
-    for (int laco = 0; laco < N; laco++)
+    for (int loop = 0; loop < SIZE; loop++)
     {
-        vetor[laco] = 0;
-        printf("%d", vetor[laco]);
+        vector[loop] = 0;
+        printf("%d", vector[loop]);
     }
 
-    free(vetor);
+    free(vector);
 }

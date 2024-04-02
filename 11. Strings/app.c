@@ -3,7 +3,8 @@
 
 int main()
 {
-    char firstName[10] = "Joshua ", lastName[10];
+    char firstName[10] = "Joshua ";
+    char lastname[10];
     // strcpy(lastName, "Martins"); // Atribuindo string
     // strcat(firstName, lastName); // Concatenação
     if (strcmp(firstName, "Joshua ") == 0)

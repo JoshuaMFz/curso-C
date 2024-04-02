@@ -3,17 +3,17 @@
 int main()
 {
     int n = 0;
-    int i = 1;
+    int loop = 1;
     scanf("%d", &n);
-    while (i <= n) // Enquanto - Condição validada no início do código.
+    while (loop <= n) // Enquanto - Condição validada no início do código.
     {
-        printf("%d", i);
-        i++;
+        printf("%d", loop);
+        loop++;
     }
 
-    for (i = 1; i <= n; i++) // Para
+    for (loop = 1; loop <= n; loop++) // Para
     {
-        printf("%d", i);
+        printf("%d", loop);
     }
 
     printf("\nFim!");
